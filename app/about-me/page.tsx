@@ -10,7 +10,7 @@ export default function AboutMePage() {
         {/* Imagen */}
         <div className="flex-1">
           <Image
-            src="/about.jpg" // Asegúrate que esté en /public/about.jpg
+            src="/me-programmer.png" // Asegúrate que esté en /public/about.jpg
             alt="Sobre mí"
             width={500}
             height={500}
