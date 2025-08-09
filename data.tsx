@@ -40,7 +40,7 @@ export const itemsNavbar = [
         id: 2,
         title: "User",
         icon: <UserRound size={25} color="#fff" strokeWidth={1} />,
-        link: "#about",
+        link: "/about-me",
     },
     {
         id: 3,
