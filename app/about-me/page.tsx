@@ -24,7 +24,8 @@ export default function AboutMePage() {
             Quién soy
           </h2>
           <p className="text-lg text-gray-200 leading-relaxed mb-4">
-            Soy un desarrollador Full Stack apasionado por crear soluciones 
+            Soy Ingeniero de Sistemas, apasionado por el desarrollo de software, el análisis de datos y todo lo que respecta a la tecnología.
+            Me destaco como desarrollador Full Stack apasionado por crear soluciones 
             innovadoras y funcionales. Me encanta aprender nuevas tecnologías 
             y aplicarlas en proyectos que generen un impacto positivo.
           </p>
@@ -33,12 +34,6 @@ export default function AboutMePage() {
             Node.js y bases de datos SQL/NoSQL. Mi objetivo es crecer como 
             profesional y aportar valor a cada equipo con el que colabore.
           </p>
-          <a
-            href="/#projects"
-            className="px-6 py-2 bg-secondary rounded-full text-white hover:bg-accent transition"
-          >
-            Ver mis proyectos
-          </a>
         </div>
       </div>
     </section>
