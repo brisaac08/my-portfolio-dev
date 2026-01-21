@@ -1,6 +1,6 @@
 "use client"
 
-import { Github, Linkedin, Mail, ArrowDown, Phone } from "lucide-react"
+import { Github, Linkedin, Mail, ArrowDown, Phone, Instagram, Facebook } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function HeroSection() {
@@ -16,7 +16,7 @@ export function HeroSection() {
             <div className="space-y-4">
               <p className="text-primary font-mono text-sm tracking-wider">¡Hola! Mi nombre es</p>
               <h1 className="text-5xl md:text-7xl font-bold text-foreground leading-tight text-balance">
-                Brayan Isaac Caro Bolaño
+                Brayan Caro
               </h1>
               <h2 className="text-2xl md:text-3xl font-semibold text-muted-foreground">
                 Full Stack Developer | Backend Developer C# .NET
@@ -43,7 +43,7 @@ export function HeroSection() {
 
             <div className="flex items-center gap-6 pt-4">
               <a
-                href="https://github.com"
+                href="https://github.com/brisaac08"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -52,7 +52,7 @@ export function HeroSection() {
                 <Github size={24} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/brayan-isaac-caro-bolaño-a904ab312/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -73,6 +73,24 @@ export function HeroSection() {
                 aria-label="Teléfono"
               >
                 <Phone size={24} />
+              </a>
+              <a
+                href="https://www.instagram.com/brisaacarob/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-primary transition-colors"
+                aria-label="Instagram"
+              >
+                <Instagram size={24} />
+              </a>
+              <a
+                href="https://www.facebook.com/brayan.caro.94695"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-primary transition-colors"
+                aria-label="Facebook"
+              >
+                <Facebook size={24} />
               </a>
             </div>
           </div>
