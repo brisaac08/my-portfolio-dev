@@ -8,8 +8,8 @@ const projects = [
       "Plataforma web de laboratorios virtuales de física, centrada en electromagnetismo. Ofrece simuladores interactivos para clases didácticas, apoyando a docentes y estudiantes en el aprendizaje significativo.",
     image: "/virtual-physics-laboratory-platform-with-electroma.jpg",
     tags: ["Web", "JavaScript", "Simuladores", "Educación"],
-    github: "https://github.com",
-    demo: "https://example.com",
+    github: "https://github.com/brisaac08/Laboratorio-Virtual",
+    demo: "https://ludebralabs.vercel.app/",
     featured: true,
     year: "2023-2024",
   },
@@ -19,22 +19,44 @@ const projects = [
       "Aplicativo de escritorio en C# con .NET Framework para la gestión de inventarios de Central de Herramientas, con planes de ampliar sus funcionalidades.",
     image: "/inventory-management-desktop-application-dark-them.jpg",
     tags: ["C#", ".NET Framework", "Desktop", "SQL Server"],
-    github: "https://github.com",
+    github: "https://github.com/brisaac08/InvManagementRepo",
     demo: "#",
     featured: true,
     year: "2023-2024",
   },
+  // {
+  //   title: "Sistema de Mortalidad Académica UPC",
+  //   description:
+  //     "Aplicativo web para conocer y analizar la tasa de mortalidad de la carrera Ingeniería de Sistemas en la Universidad Popular del Cesar.",
+  //   image: "/academic-analytics-dashboard-university-data-visua.jpg",
+  //   tags: ["Web", "Analytics", "Universidad", "Base de Datos"],
+  //   github: "https://github.com",
+  //   demo: "#",
+  //   featured: true,
+  //   year: "2024",
+  // },
   {
-    title: "Sistema de Mortalidad Académica UPC",
+    title: "Sistema de Modelos Financieros Educativo",
     description:
-      "Aplicativo web para conocer y analizar la tasa de mortalidad de la carrera Ingeniería de Sistemas en la Universidad Popular del Cesar.",
-    image: "/academic-analytics-dashboard-university-data-visua.jpg",
-    tags: ["Web", "Analytics", "Universidad", "Base de Datos"],
-    github: "https://github.com",
+      "Aplicación web interactiva para la comprensión y aplicación práctica de modelos financieros: interés simple/compuesto, amortizaciones, gradientes y simuladores de crédito con tablas detalladas por periodo.",
+    image: "/financial-models-educational-platform-laravel-dark.jpg",
+    tags: ["Laravel 12", "Filament 4", "Livewire 3", "Tailwind 4", "MySQL"],
+    github: "https://github.com/Aisaac123/EconomiaProject-Laravel-Jetstream",
     demo: "#",
     featured: true,
-    year: "2024",
+    year: "2025",
   },
+  {
+    title: "Ecommerce para óptica en Valledupar - JD Fashion",
+    description:
+      "Plataforma ecommerce desarrollada para una óptica local, con catálogo dinámico de monturas, panel administrativo para gestión de inventario, subida de imágenes a Cloudinary y control de productos activos. Implementa arquitectura con Next.js App Router y API Routes para manejo seguro de autenticación.",
+    image: "/jd-fashion.jpg",
+    tags: ["Next.js 16", "TypeScript", "Tailwind CSS", "Cloudinary", "Railway", "Postgres"],
+    github: "https://github.com/brisaac08/front-jd-fashion",
+    demo: "https://www.opticajdfashion.com",
+    featured: true,
+    year: "2026",
+  }
 ]
 
 export function ProjectsSection() {
