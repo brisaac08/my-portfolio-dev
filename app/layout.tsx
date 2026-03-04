@@ -8,7 +8,7 @@ const _inter = Inter({ subsets: ["latin"] })
 const _jetbrainsMono = JetBrains_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Alex Rodríguez | Desarrollador Full Stack",
+  title: "Brayan Caro | Desarrollador Full Stack",
   description: "Portfolio de desarrollador especializado en crear experiencias digitales excepcionales",
     generator: 'v0.app'
 }
